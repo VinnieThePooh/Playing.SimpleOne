@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Playing.GeometryTools", "Playing.GeometryTools\Playing.GeometryTools.csproj", "{2E8D43E7-691F-42C0-9C63-783CA6E94C01}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Playing.GeometryTools.Tests", "Playing.GeometryTools.Tests\Playing.GeometryTools.Tests.csproj", "{32726598-F2B6-4C73-8BA1-088156FAFB28}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2E8D43E7-691F-42C0-9C63-783CA6E94C01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E8D43E7-691F-42C0-9C63-783CA6E94C01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E8D43E7-691F-42C0-9C63-783CA6E94C01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E8D43E7-691F-42C0-9C63-783CA6E94C01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32726598-F2B6-4C73-8BA1-088156FAFB28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32726598-F2B6-4C73-8BA1-088156FAFB28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32726598-F2B6-4C73-8BA1-088156FAFB28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32726598-F2B6-4C73-8BA1-088156FAFB28}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
