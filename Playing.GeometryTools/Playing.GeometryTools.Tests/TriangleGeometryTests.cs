@@ -10,8 +10,12 @@ public class TriangleGeometryTests
     [Fact]
     public void GetTriangleType_ThrowsExceptions()
     {
+        //arrange
         double a = 0, b = 20, c = 30;
-        Assert.Throws<ArgumentException>(() => TriangleTools.GetTriangleType(a, b, c));
+        //assert obviously
+        Assert.Throws<ArgumentException>(() => 
+            //act
+            TriangleTools.GetTriangleType(a, b, c));
         a = -3;
         Assert.Throws<ArgumentException>(() => TriangleTools.GetTriangleType(a, b, c));
         a = 5;
